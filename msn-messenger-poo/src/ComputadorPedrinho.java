@@ -1,3 +1,8 @@
+import apps.FacebookMessenger;
+import apps.MSNMessenger;
+import apps.ServicoMensagemInstantanea;
+import apps.Telegram;
+
 public class ComputadorPedrinho {
     public static void main(String[] args) {
         // // abrindo o MSN Messenger
@@ -25,7 +30,7 @@ public class ComputadorPedrinho {
          * NAO SE SABE QUAL APP
          * MAS QUALQUER UM DEVERA ENVIAR E RECEBER MENSAGEM
          */
-        String appEscolhido = "msn";
+        String appEscolhido = "fbm";
 
         if (appEscolhido.equals("msn"))
             smi = new MSNMessenger();
